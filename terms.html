@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MetalCalc — Terms of Use / Conditions d'utilisation</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f7; color: #1d1d1f; line-height: 1.75; padding: 40px 20px; }
+  .container { max-width: 720px; margin: 0 auto; background: white; padding: 48px; border-radius: 18px; box-shadow: 0 2px 20px rgba(0,0,0,0.07); }
+  .lang-bar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 32px; }
+  .lang-btn { background: #f0f0f0; border: none; border-radius: 20px; padding: 5px 14px; font-size: 13px; cursor: pointer; font-family: inherit; color: #3d3d3f; transition: background 0.15s; }
+  .lang-btn.active { background: #1d1d1f; color: white; }
+  .lang-btn:hover:not(.active) { background: #e0e0e0; }
+  h1 { font-size: 26px; font-weight: 700; margin-bottom: 6px; }
+  .date { color: #6e6e73; font-size: 13px; margin-bottom: 28px; }
+  h2 { font-size: 16px; font-weight: 600; margin: 28px 0 8px; }
+  p { color: #3d3d3f; font-size: 15px; margin-bottom: 12px; }
+  ul { color: #3d3d3f; font-size: 15px; padding-left: 22px; margin-bottom: 14px; }
+  li { margin-bottom: 5px; }
+  a { color: #0071e3; text-decoration: none; }
+  strong { color: #1d1d1f; }
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #f0f0f0; font-size: 13px; color: #6e6e73; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  [dir="rtl"] { text-align: right; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="lang-bar">
+    <button class="lang-btn active" onclick="setLang('fr')">Français</button>
+    <button class="lang-btn" onclick="setLang('en')">English</button>
+    <button class="lang-btn" onclick="setLang('de')">Deutsch</button>
+    <button class="lang-btn" onclick="setLang('es')">Español</button>
+    <button class="lang-btn" onclick="setLang('pt')">Português</button>
+    <button class="lang-btn" onclick="setLang('zh')">中文</button>
+    <button class="lang-btn" onclick="setLang('hi')">हिन्दी</button>
+    <button class="lang-btn" onclick="setLang('ar')">العربية</button>
+  </div>
+
+  <div id="content"></div>
+
+  <footer>
+    <span>© 2026 MetalCalc — Paul Theberge</span>
+    <a href="index.html" id="privacy-link">← Politique de confidentialité</a>
+  </footer>
+</div>
+
+<script>
+const content = {
+  fr: {
+    dir: "ltr",
+    title: "Conditions d'utilisation de MetalCalc",
+    date: "Dernière mise à jour : 18 septembre 2026",
+    privacyLink: "← Politique de confidentialité",
+    body: `
+      <p>Les présentes conditions encadrent l'utilisation de MetalCalc (« l'Application »), développée et publiée par <strong>Paul Theberge</strong>, développeur indépendant établi au Québec, Canada.</p>
+      <p>En téléchargeant ou en utilisant MetalCalc, vous acceptez les présentes conditions ainsi que le contrat de licence applicable de l'App Store.</p>
+      <h2>1. Contrat de licence Apple</h2>
+      <p>MetalCalc est distribuée conformément au contrat de licence standard d'Apple. Les présentes conditions complètent ce contrat. En cas d'incompatibilité, le contrat de l'App Store et les dispositions légales impératives prévalent.</p>
+      <h2>2. Objet de MetalCalc</h2>
+      <p>MetalCalc fournit des outils de calcul, d'estimation et de conversion liés aux métaux. Les fonctionnalités peuvent évoluer d'une version à l'autre.</p>
+      <h2>3. Résultats à titre informatif</h2>
+      <p>Les résultats sont fournis à titre informatif seulement. Nous ne garantissons pas leur exactitude ou leur adaptation à un usage particulier. Vous êtes responsable de vérifier les données saisies et les résultats avant toute décision.</p>
+      <h2>4. Utilisation professionnelle</h2>
+      <p>Faites vérifier indépendamment tout résultat avant utilisation dans un contexte professionnel, industriel, structurel, financier ou réglementé. MetalCalc ne remplace pas l'avis d'un professionnel qualifié.</p>
+      <h2>5. Utilisation autorisée</h2>
+      <p>Vous ne devez pas utiliser l'Application de manière illégale, perturber son fonctionnement, tenter d'y accéder sans autorisation, reproduire ou distribuer l'Application sans permission.</p>
+      <h2>6. Propriété intellectuelle</h2>
+      <p>MetalCalc et tous ses éléments sont protégés par les lois applicables. Aucun droit de propriété ne vous est transféré.</p>
+      <h2>7. Achats et abonnements</h2>
+      <p>Les achats intégrés et abonnements sont gérés par Apple. Vous pouvez annuler un abonnement dans les réglages de votre compte Apple. Les demandes de remboursement doivent être adressées à Apple.</p>
+      <h2>8. Disponibilité</h2>
+      <p>Nous pouvons modifier ou retirer des fonctionnalités lorsque nécessaire. Nous ne garantissons pas une disponibilité sans interruption.</p>
+      <h2>9. Exclusion de garanties</h2>
+      <p>Dans la mesure permise par la loi, MetalCalc est fournie « telle quelle ». Aucune disposition ne limite les droits impératifs des consommateurs.</p>
+      <h2>10. Limitation de responsabilité</h2>
+      <p>Dans la mesure permise par la loi, nous ne sommes pas responsables des pertes indirectes résultant d'un résultat non vérifié ou d'une utilisation contraire à la destination de l'Application.</p>
+      <h2>11. Protection des renseignements personnels</h2>
+      <p>Consultez notre <a href="index.html">Politique de confidentialité</a> pour les détails sur le traitement des données.</p>
+      <h2>12. Droit applicable</h2>
+      <p>Ces conditions sont régies par les lois du Québec et du Canada, sans priver un consommateur de ses protections légales dans son lieu de résidence.</p>
+      <h2>13. Nous joindre</h2>
+      <p><strong>Paul Theberge</strong> · Québec, Canada<br>Courriel : <a href="mailto:SUPPORT@METALCALC.APP">SUPPORT@METALCALC.APP</a></p>
+    `
+  },
+  en: {
+    dir: "ltr",
+    title: "MetalCalc Terms of Use",
+    date: "Last updated: September 18, 2026",
+    privacyLink: "← Privacy Policy",
+    body: `
+      <p>These terms govern the use of MetalCalc ("the App"), developed and published by <strong>Paul Theberge</strong>, independent developer based in Quebec, Canada.</p>
+      <p>By downloading or using MetalCalc, you agree to these terms and Apple's applicable App Store license agreement.</p>
+      <h2>1. Apple License Agreement</h2>
+      <p>MetalCalc is distributed under Apple's standard App Store license agreement. These terms supplement that agreement. In case of conflict, the App Store agreement and mandatory legal provisions prevail.</p>
+      <h2>2. Purpose of MetalCalc</h2>
+      <p>MetalCalc provides calculation, estimation, and conversion tools for metal-related purposes. Features may evolve between versions.</p>
+      <h2>3. Results for Informational Purposes Only</h2>
+      <p>Results are provided for informational purposes only. We do not guarantee their accuracy or suitability for any particular purpose. You are responsible for verifying all inputs and results before making any decision.</p>
+      <h2>4. Professional Use</h2>
+      <p>Independently verify any result before using it in a professional, industrial, structural, financial, or regulated context. MetalCalc does not replace the advice of a qualified professional.</p>
+      <h2>5. Permitted Use</h2>
+      <p>You must not use the App illegally, disrupt its operation, attempt unauthorized access, or reproduce or distribute the App without permission.</p>
+      <h2>6. Intellectual Property</h2>
+      <p>MetalCalc and all its elements are protected by applicable laws. No ownership rights are transferred to you.</p>
+      <h2>7. Purchases & Subscriptions</h2>
+      <p>In-app purchases and subscriptions are managed by Apple. You can cancel a subscription in your Apple account settings. Refund requests must be directed to Apple.</p>
+      <h2>8. Availability</h2>
+      <p>We may modify or remove features when necessary. We do not guarantee uninterrupted availability.</p>
+      <h2>9. Disclaimer of Warranties</h2>
+      <p>To the extent permitted by law, MetalCalc is provided "as is." Nothing in these terms limits mandatory consumer rights.</p>
+      <h2>10. Limitation of Liability</h2>
+      <p>To the extent permitted by law, we are not responsible for indirect losses resulting from unverified results or use contrary to the App's intended purpose.</p>
+      <h2>11. Privacy</h2>
+      <p>See our <a href="index.html">Privacy Policy</a> for details on data handling.</p>
+      <h2>12. Governing Law</h2>
+      <p>These terms are governed by the laws of Quebec and Canada, without depriving consumers of mandatory protections in their place of residence.</p>
+      <h2>13. Contact Us</h2>
+      <p><strong>Paul Theberge</strong> · Quebec, Canada<br>Email: <a href="mailto:SUPPORT@METALCALC.APP">SUPPORT@METALCALC.APP</a></p>
+    `
+  },
+  de: { dir: "ltr", title: "MetalCalc Nutzungsbedingungen", date: "Letzte Aktualisierung: 18. September 2026", privacyLink: "← Datenschutzrichtlinie", body: `<p>Diese Bedingungen regeln die Nutzung von MetalCalc, entwickelt von <strong>Paul Theberge</strong>, unabhängiger Entwickler, Quebec, Kanada. Durch die Nutzung von MetalCalc stimmen Sie diesen Bedingungen und der Apple App Store Lizenzvereinbarung zu.</p><h2>Ergebnisse zu Informationszwecken</h2><p>Die von MetalCalc erzeugten Ergebnisse dienen nur zu Informationszwecken. Wir übernehmen keine Garantie für deren Richtigkeit. Überprüfen Sie alle Ergebnisse, bevor Sie Entscheidungen treffen.</p><h2>Käufe & Abonnements</h2><p>In-App-Käufe werden von Apple verwaltet. Abonnements können in Ihren Apple-Kontoeinstellungen gekündigt werden.</p><h2>Kontakt</h2><p>E-Mail: <a href="mailto:SUPPORT@METALCALC.APP">SUPPORT@METALCALC.APP</a></p>` },
+  es: { dir: "ltr", title: "Términos de uso de MetalCalc", date: "Última actualización: 18 de septiembre de 2026", privacyLink: "← Política de privacidad", body: `<p>Estos términos rigen el uso de MetalCalc, desarrollada por <strong>Paul Theberge</strong>, desarrollador independiente en Quebec, Canadá. Al usar MetalCalc, acepta estos términos y el acuerdo de licencia de App Store.</p><h2>Resultados informativos</h2><p>Los resultados son solo informativos. No garantizamos su exactitud. Verifique todos los resultados antes de tomar decisiones.</p><h2>Compras y suscripciones</h2><p>Las compras integradas son gestionadas por Apple. Puede cancelar suscripciones desde su cuenta Apple.</p><h2>Contacto</h2><p>Correo: <a href="mailto:SUPPORT@METALCALC.APP">SUPPORT@METALCALC.APP</a></p>` },
+  pt: { dir: "ltr", title: "Termos de Uso do MetalCalc", date: "Última atualização: 18 de setembro de 2026", privacyLink: "← Política de Privacidade", body: `<p>Estes termos regem o uso do MetalCalc, desenvolvido por <strong>Paul Theberge</strong>, desenvolvedor independente no Quebec, Canadá. Ao usar o MetalCalc, você concorda com estes termos e com o contrato de licença da App Store.</p><h2>Resultados informativos</h2><p>Os resultados são apenas informativos. Não garantimos sua precisão. Verifique todos os resultados antes de tomar decisões.</p><h2>Compras e Assinaturas</h2><p>As compras integradas são gerenciadas pela Apple. Você pode cancelar assinaturas nas configurações da sua conta Apple.</p><h2>Contato</h2><p>E-mail: <a href="mailto:SUPPORT@METALCALC.APP">SUPPORT@METALCALC.APP</a></p>` },
+  zh: { dir: "ltr", title: "MetalCalc 使用条款", date: "最后更新：2026年9月18日", privacyLink: "← 隐私政策", body: `<p>这些条款规范 MetalCalc 的使用，该应用由独立开发者 <strong>Paul Theberge</strong>（加拿大魁北克）开发。使用 MetalCalc 即表示您同意这些条款和 App Store 许可协议。</p><h2>仅供参考的结果</h2><p>MetalCalc 提供的结果仅供参考。我们不保证其准确性。在做出任何决定前，请验证所有结果。</p><h2>购买与订阅</h2><p>应用内购由 Apple 管理。您可以在 Apple 账户设置中取消订阅。</p><h2>联系我们</h2><p>电子邮件：<a href="mailto:SUPPORT@METALCALC.APP">SUPPORT@METALCALC.APP</a></p>` },
+  hi: { dir: "ltr", title: "MetalCalc उपयोग की शर्तें", date: "अंतिम अपडेट: 18 सितंबर 2026", privacyLink: "← गोपनीयता नीति", body: `<p>ये शर्तें MetalCalc के उपयोग को नियंत्रित करती हैं, जिसे स्वतंत्र डेवलपर <strong>Paul Theberge</strong>, क्यूबेक, कनाडा द्वारा विकसित किया गया है।</p><h2>केवल सूचनात्मक परिणाम</h2><p>MetalCalc के परिणाम केवल सूचनात्मक उद्देश्यों के लिए हैं। कोई भी निर्णय लेने से पहले सभी परिणामों की जांच करें।</p><h2>खरीदारी और सदस्यता</h2><p>इन-ऐप खरीदारी Apple द्वारा प्रबंधित की जाती है। अपनी Apple खाता सेटिंग में सदस्यता रद्द करें।</p><h2>संपर्क</h2><p>ईमेल: <a href="mailto:SUPPORT@METALCALC.APP">SUPPORT@METALCALC.APP</a></p>` },
+  ar: { dir: "rtl", title: "شروط استخدام MetalCalc", date: "آخر تحديث: 18 سبتمبر 2026", privacyLink: "سياسة الخصوصية →", body: `<p>تحكم هذه الشروط استخدام MetalCalc، الذي طوّره <strong>Paul Theberge</strong>، مطوّر مستقل في كيبيك، كندا. باستخدام MetalCalc، فإنك توافق على هذه الشروط واتفاقية ترخيص App Store.</p><h2>نتائج للأغراض الإعلامية فقط</h2><p>النتائج التي يوفرها MetalCalc هي للأغراض الإعلامية فقط. تحقق من جميع النتائج قبل اتخاذ أي قرار.</p><h2>المشتريات والاشتراكات</h2><p>تُدار المشتريات داخل التطبيق بواسطة Apple. يمكنك إلغاء الاشتراكات من إعدادات حساب Apple الخاص بك.</p><h2>التواصل معنا</h2><p>البريد الإلكتروني: <a href="mailto:SUPPORT@METALCALC.APP">SUPPORT@METALCALC.APP</a></p>` }
+};
+
+function setLang(lang) {
+  const c = content[lang] || content['en'];
+  document.getElementById('content').innerHTML =
+    `<h1>${c.title}</h1><p class="date">${c.date}</p>${c.body}`;
+  document.getElementById('privacy-link').textContent = c.privacyLink;
+  document.documentElement.lang = lang;
+  document.documentElement.dir = c.dir;
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+
+const browserLang = navigator.language.slice(0, 2);
+const supported = ['fr', 'en', 'de', 'es', 'pt', 'zh', 'hi', 'ar'];
+const defaultLang = supported.includes(browserLang) ? browserLang : 'fr';
+const defaultBtn = document.querySelector(`.lang-btn:nth-child(${supported.indexOf(defaultLang) + 1})`);
+if (defaultBtn) { defaultBtn.classList.add('active'); document.querySelectorAll('.lang-btn')[0].classList.remove('active'); }
+setLang(defaultLang);
+</script>
+</body>
+</html>
